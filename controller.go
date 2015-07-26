@@ -33,7 +33,7 @@ func (c *Controller) Init(ct *Context, cn string) {
 	c.TplNames = ""
 	c.ChildName = cn
 	c.Ct = ct
-	c.TplExt = "tpl"
+	//	c.TplExt = "tpl"
 }
 
 func (c *Controller) Get() {

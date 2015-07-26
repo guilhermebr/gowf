@@ -19,7 +19,7 @@ func InitConfig() *Config {
 	AppPath, _ := filepath.Abs(filepath.Dir(os.Args[0]))
 
 	return &Config{
-		StaticDir: "/static",
+		StaticDir: "static",
 		workPath:  workPath,
 		AppPath:   AppPath,
 		HttpAddr:  "127.0.0.1",
